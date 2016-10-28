@@ -8144,6 +8144,7 @@ button.close {
   overflow: visible;
   clip: auto; }
 
+/*navegacao*/
 .navbar-brand {
   padding: 0px;
   margin-top: 0px; }
@@ -8157,6 +8158,50 @@ button.close {
   .nav li a {
     color: #fff;
     font-family: 'Open Sans', sans-serif; }
+
+/*carousel*/
+.item img {
+  width: 100%; }
+
+.carousel-caption {
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.6); }
+  .carousel-caption p {
+    font-size: 1.5em; }
+  .carousel-caption h3 {
+    font-size: 2em; }
+
+/*main*/
+.contPrincipal {
+  background-color: #f2f2f2; }
+
+.empresa {
+  color: #333;
+  background-color: #fff;
+  background-image: linear-gradient(to top, transparent, rgba(0, 90, 210, 0.4));
+  text-align: justify;
+  padding: 45px; }
+  .empresa h1 {
+    padding-bottom: 25px;
+    text-align: center; }
+  .empresa p {
+    font-weight: 1em; }
+
+/*contato*/
+.contato {
+  text-align: center;
+  padding: 35px 5px; }
+
+/*rodape*/
+footer {
+  background-color: #000;
+  text-align: center;
+  height: 50px; }
+  footer p {
+    color: #f2f2f2;
+    padding: 5px; }
+  footer .container {
+    margin-bottom: 0px; }
 
 /*mobile*/
 @media screen and (max-width: 480px) {
@@ -8175,15 +8220,19 @@ button.close {
 /*tablet*/
 @media screen and (min-width: 481px) {
   .nav li:hover {
-    border-top: 3px #0066cc solid; }
+    border-top: 5px #0066cc solid; }
   .nav li a {
     font-size: 1.2em; } }
 
 @media screen and (max-width: 980px) {
   .navbar {
-    height: 52px; } }
+    height: 52px; }
+  .slide {
+    margin-top: 50px; } }
 
 /*Computer*/
 @media screen and (min-width: 981px) {
   .nav li a {
-    padding: 40px 20px; } }
+    padding: 40px 20px; }
+  .slide {
+    margin-top: 100px; } }
