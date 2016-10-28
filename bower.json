@@ -1,0 +1,17 @@
+{
+  "name": "cs_transportes",
+  "homepage": "https://github.com/worldvini/cs_transporte",
+  "authors": [
+    "Vinicius da Silva Fleury <worldvini@hotmail.com>"
+  ],
+  "description": "empresa de transportes",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
