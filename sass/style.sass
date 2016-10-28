@@ -1,3 +1,57 @@
-.classe
-	font-size: 15px
-	color: #000
+@import ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700')
+@import ../bower_components/font-awesome/scss/font-awesome
+
+$black: #000
+$white: #fff
+$blue: #0066cc
+
+.navbar-brand
+	padding: 0px
+	margin-top: 0px
+.navbar
+	background-color: $black
+	height: 102px
+.nav
+	li
+		height: 100px
+		a
+			color: $white
+			font-family: 'Open Sans', sans-serif
+
+/*mobile*/	
+@media screen and (max-width: 480px)
+	.navbar-inverse .navbar-nav
+		li 
+			a 
+				color: white
+	.nav	
+		margin-top: 0px	
+		li
+			background-color: $blue 
+			height: 52px			
+			a 
+				color: $white
+				padding: 15px
+				border-bottom: 1px $white solid	
+/*tablet*/
+@media screen and (min-width: 481px)
+	.nav 
+		li:hover
+			border-top: 3px $blue solid
+		li 
+			a
+				font-size: 1.2em
+
+@media screen and (max-width: 980px)
+	.navbar
+		height: 52px
+
+/*Computer*/
+@media screen and (min-width: 981px)	
+	.nav	
+		li 
+			a 
+				padding: 40px 20px		
+
+
