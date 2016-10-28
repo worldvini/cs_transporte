@@ -1,0 +1,22 @@
+{
+  "name": "cs_transporte",
+  "version": "1.0.0",
+  "description": "empresa de transporte executivo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/worldvini/cs_transporte.git"
+  },
+  "author": "Vinicius da Silva Fleury - worldvini@hotmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/worldvini/cs_transporte/issues"
+  },
+  "homepage": "https://github.com/worldvini/cs_transporte#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
