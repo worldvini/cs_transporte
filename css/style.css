@@ -8180,12 +8180,33 @@ button.close {
   background-color: #fff;
   background-image: linear-gradient(to top, transparent, rgba(0, 90, 210, 0.4));
   text-align: justify;
-  padding: 45px; }
+  padding: 10px 45px 45px 45px; }
   .empresa h1 {
     padding-bottom: 25px;
     text-align: center; }
   .empresa p {
     font-weight: 1em; }
+
+/*servico*/
+.servicos {
+  background-color: #000; }
+  .servicos .container {
+    background: url("../img/saopaulo_servicos.jpg") center center no-repeat fixed;
+    background-size: cover;
+    padding: 70px 30px; }
+
+.info {
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4); }
+  .info h3 {
+    font-size: 1.3em;
+    padding: 15px; }
+  .info p {
+    font-size: 1.1em; }
+  .info i {
+    color: #fff; }
 
 /*contato*/
 .contato {
@@ -8196,10 +8217,10 @@ button.close {
 footer {
   background-color: #000;
   text-align: center;
-  height: 50px; }
+  height: 80px;
+  padding: 15px; }
   footer p {
-    color: #f2f2f2;
-    padding: 5px; }
+    color: #f2f2f2; }
   footer .container {
     margin-bottom: 0px; }
 
@@ -8228,7 +8249,14 @@ footer {
   .navbar {
     height: 52px; }
   .slide {
-    margin-top: 50px; } }
+    margin-top: 50px; }
+  .servicos .container {
+    background-image: url("../img/saopaulo_servicos_mobile.jpg");
+    padding: 15px; }
+  .carousel-caption p {
+    font-size: 1.1em; }
+  .carousel-caption h3 {
+    font-size: 1.5em; } }
 
 /*Computer*/
 @media screen and (min-width: 981px) {

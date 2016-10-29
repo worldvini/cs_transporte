@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="br">
+<html>
 <head>
 	<title>CS Transportes Executivos</title>
 	<meta name="description" content="É uma empresa especializada em transporte executivo, entrega de pequenos pacotes e documentos no estado de SP">
@@ -52,21 +52,36 @@
 				<!--end definition to carousel -->
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img src="img/slider_carousel_1.jpg" alt="carousel foto 1">
+						<picture>
+							<source media="(max-width: 980px)" srcset="img/slider_carousel_mobile1.jpg">
+							<source media="(min-width: 981px)" srcset="img/slider_carousel_1.jpg">
+							<img src="img/slider_carousel_mobile1.jpg" alt="ponte estaiada são paulo">
+						</picture>
+						<!--<img src="img/slider_carousel_1.jpg" alt="carousel foto 1">-->
 						<div class="carousel-caption">
 							<h3>Transporte Executivo de Passageiros em todo o estado de São Paulo</h3>
 							<p>Tudo com Qualidade, Conforto e Segurança</p>
 						</div>
 					</div>
 					<div class="item">
-						<img src="img/slider_carousel_2.jpg" alt="carousel foto 2">
+						<picture>
+							<source media="(max-width: 980px)" srcset="img/slider_carousel_mobile2.jpg">
+							<source media="(min-width: 981px)" srcset="img/slider_carousel_2.jpg">
+							<img src="img/slider_carousel_mobile2.jpg" alt="avenida paulista são paulo">
+						</picture>
+						<!--<img src="img/slider_carousel_2.jpg" alt="carousel foto 2">-->
 						<div class="carousel-caption">
 							<h3>Agende conosco</h3>
 							<p>Viagens de São Paulo para outros Estados</p>
 						</div>
 					</div>
 					<div class="item">
-						<img src="img/slider_carousel_3.jpg" alt="carousel foto 3">
+						<picture>
+							<source media="(max-width: 980px)" srcset="img/slider_carousel_mobile3.jpg">
+							<source media="(min-width: 981px)" srcset="img/slider_carousel_3.jpg">
+							<img src="img/slider_carousel_mobile3.jpg" alt="aeroporto congonhas são paulo">
+						</picture>
+						<!--<img src="img/slider_carousel_3.jpg" alt="carousel foto 3">-->
 						<div class="carousel-caption">
 							<h3>Viage tranquilo</h3>
 							<p>Levamos e recepcionamos você nos principais aeropostos de São Paulo</p>
@@ -89,25 +104,36 @@
 	<main class="contPrincipal">
 		<section>
 			<div class="container empresa">
-				<h1>Uma empresa de valor em <br> <strong>Transporte Executivo</strong></h1>
+				<h1><i class="fa fa-line-chart fa-3x" aria-hidden="true"></i> <br> Uma empresa de valor em <br> <strong>Transporte Executivo</strong></h1>
+
 				<p><strong>CS Transporte Executivo</strong> é uma empresa voltada ao melhor atendimento com politicas rigorosas no quesito qualidade que conta com uma frota de carros novos com documentação e revisão sempre em dia.</p>
 				<p>Sendo especialiada em transporte executivo, contamos com ótimos treinamentos de nossos motoristas, que trabalham sempre felizes e motivados para melhor atender suas necessidades</p>
 				<p>Prestamos serviço de transporte de pessoas, retirada/entrega de encomendas, cargas e malas de passageiros por toda são paulo, Locação de Veículos com motorista ( Carro comum, Carro Executivos) e como estamos em sempre em crescimento, logo atenderemos todo o Brasil.</p>
 			</div>
 		</section>
 	</main><!-- end main subject website -->
-	<section>
-		<div class="servicos">
-			<div>
-				<i class="fa fa-taxi fa-3x" aria-hidden="true"></i>
-			</div>
-			<div>
-				<i class="fa fa-street-view fa-3x" aria-hidden="true"></i>
-			</div>
-			<div>
-				
-			</div>
-			
+	<section class="servicos">
+		<div class="container">
+			<div class="row">
+				<div class="info col-xs-12 col-sm-12 col-md-4">
+					<i class="fa fa-street-view fa-4x" aria-hidden="true"></i>
+					<h3>Transporte Executivo</h3>
+					<p>Oferemos um serviço com veículos novos e motoristas bem treinados, levando você a reuniões, aeroportos, festas entre outros diversos lugares de seu interesse. <br>
+					Tudo com comodidade, rapides de qualidade.</p>
+				</div>
+				<div class="info col-xs-12 col-sm-6 col-md-4">
+					<i class="fa fa-taxi fa-4x" aria-hidden="true"></i>
+					<h3>Transporte Executivo</h3>
+					<p>Oferemos um serviço com veículos novos e motoristas bem treinados, levando você a reuniões, aeroportos, festas entre outros diversos lugares de seu interesse. <br>
+					Tudo com comodidade, rapides de qualidade.</p>
+				</div>
+				<div class="info col-xs-12 col-sm-6 col-md-4">
+					<i class="fa fa-paper-plane fa-4x" aria-hidden="true"></i>
+					<h3>Transporte Executivo</h3>
+					<p>Oferemos um serviço com veículos novos e motoristas bem treinados, levando você a reuniões, aeroportos, festas entre outros diversos lugares de seu interesse. <br>
+					Tudo com comodidade, rapides de qualidade.</p>
+				</div>
+			</div>			
 		</div>		
 	</section>
 	<section>
@@ -179,9 +205,8 @@
 	</section><!--end section contact-->
 	<footer>
 		<div class="conteiner">
-			<p>2016 - Todos os Direitos Reservados <br> Desenvolvido por <a href="#">World Vini Desenvolvimento Web</a></p>
-		</div>
-		
+			<p>2016 - Todos os Direitos Reservados <br> Desenvolvido por <a href="worldvini@hotmail.com">WorldVini Desenvolvimento Web</a></p>
+		</div>		
 	</footer>
 </body>
 </html>
