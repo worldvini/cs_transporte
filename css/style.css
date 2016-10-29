@@ -8186,19 +8186,24 @@ button.close {
     text-align: center; }
   .empresa p {
     font-weight: 1em; }
+  .empresa i {
+    padding: 25px 15px; }
 
 /*servico*/
 .servicos {
   background-color: #000; }
   .servicos .container {
+    text-align: center;
     background: url("../img/saopaulo_servicos.jpg") center center no-repeat fixed;
     background-size: cover;
-    padding: 70px 30px; }
+    padding: 50px 30px 70px 30px;
+    color: #fff; }
+    .servicos .container h2 {
+      font-size: 2.8em;
+      padding-bottom: 20px; }
 
 .info {
-  text-align: center;
   padding: 30px;
-  color: #fff;
   background-color: rgba(0, 0, 0, 0.4); }
   .info h3 {
     font-size: 1.3em;

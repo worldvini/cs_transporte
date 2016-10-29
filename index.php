@@ -11,8 +11,9 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/myjs.js"></script>
 </head>
+<div id="home"></div>
 <body>
-	<header>
+	<header >
 		<nav class="navbar  navbar-inverse navbar-fixed-top navbar-custom">
 		  <div class="container">
 			    <!-- Brand and toggle get grouped for better mobile display -->
@@ -34,11 +35,11 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">				     
 				     <ul class="nav navbar-nav navbar-right" id="control">
-				        <li><a href="#home">Home</a></li>	
-				        <li><a href="#empresa">Empresa</a></li>	
-				        <li><a href="#servico">Serviços</a></li>
-				        <li><a href="#fotos">Frota</a></li>
-				        <li><a href="#contato">Contato</a></li>	
+				        <li><a class="scroll" href="#home">Home</a></li>	
+				        <li><a class="scroll" href="#empresa">Empresa</a></li>	
+				        <li><a class="scroll" href="#servicos">Serviços</a></li>
+				        <li><a class="scroll" href="#frota">Frota</a></li>
+				        <li><a class="scroll" href="#contato">Contato</a></li>	
 				     </ul>
 			     </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
@@ -87,6 +88,7 @@
 							<p>Levamos e recepcionamos você nos principais aeropostos de São Paulo</p>
 						</div>
 					</div>
+					<div id="empresa"></div>
 				</div>
 				<!-- end content to carousel -->
 				    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -101,19 +103,22 @@
 				
 			</div><!-- end carrosel -->
 	</header>
+	
 	<main class="contPrincipal">
-		<section>
+		<section >
 			<div class="container empresa">
 				<h1><i class="fa fa-line-chart fa-3x" aria-hidden="true"></i> <br> Uma empresa de valor em <br> <strong>Transporte Executivo</strong></h1>
 
 				<p><strong>CS Transporte Executivo</strong> é uma empresa voltada ao melhor atendimento com politicas rigorosas no quesito qualidade que conta com uma frota de carros novos com documentação e revisão sempre em dia.</p>
 				<p>Sendo especialiada em transporte executivo, contamos com ótimos treinamentos de nossos motoristas, que trabalham sempre felizes e motivados para melhor atender suas necessidades</p>
 				<p>Prestamos serviço de transporte de pessoas, retirada/entrega de encomendas, cargas e malas de passageiros por toda são paulo, Locação de Veículos com motorista ( Carro comum, Carro Executivos) e como estamos em sempre em crescimento, logo atenderemos todo o Brasil.</p>
+				<div id="servicos"></div>
 			</div>
 		</section>
-	</main><!-- end main subject website -->
-	<section class="servicos">
+	</main><!-- end main subject website -->	
+	<section class="servicos" >
 		<div class="container">
+			<h2><strong>Serviços</strong></h2>
 			<div class="row">
 				<div class="info col-xs-12 col-sm-12 col-md-4">
 					<i class="fa fa-street-view fa-4x" aria-hidden="true"></i>
@@ -136,11 +141,13 @@
 			</div>			
 		</div>		
 	</section>
+	<div id="frota"></div>
 	<section>
 		<div class="frota">
 			
 		</div>
 	</section>
+	<div id="contato"></div>
 	<section>
 		<div class="container contato">
 			<script>
