@@ -8173,19 +8173,19 @@ button.close {
 
 /*main*/
 .contPrincipal {
-  background-color: #f2f2f2; }
+  background-color: #f2f2f2;
+  background-image: linear-gradient(to top, transparent, rgba(0, 90, 210, 0.4)); }
 
 .empresa {
   color: #333;
-  background-color: #fff;
-  background-image: linear-gradient(to top, transparent, rgba(0, 90, 210, 0.4));
   text-align: justify;
   padding: 10px 45px 45px 45px; }
   .empresa h1 {
     padding-bottom: 25px;
     text-align: center; }
   .empresa p {
-    font-weight: 1em; }
+    font-weight: 1em;
+    padding: 0px 30px; }
   .empresa i {
     padding-bottom: 25px; }
 
@@ -8204,11 +8204,14 @@ button.close {
 
 .info {
   padding: 30px;
-  background-color: rgba(0, 0, 0, 0.4); }
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px; }
   .info h3 {
     font-size: 1.3em;
     padding: 15px; }
   .info p {
+    text-align: justify;
+    text-indent: 15px;
     font-size: 1.1em; }
   .info i {
     color: #fff; }
@@ -8275,4 +8278,7 @@ footer {
   .empresa,
   .servicos .container,
   .contato {
-    padding: 90px 15px; } }
+    padding: 90px 15px; }
+  .infoControl {
+    display: flex;
+    justify-content: space-around; } }

@@ -34,11 +34,10 @@ $grey: #f2f2f2
 		font-size: 2em	
 /*main*/
 .contPrincipal
-	background-color: $grey
+	background-color: $grey	
+	background-image: linear-gradient(to top, transparent, rgba(0,90,210,0.4))
 .empresa
 	color: $smallblack
-	background-color: $white
-	background-image: linear-gradient(to top, transparent, rgba(0,90,210,0.4))
 	text-align: justify
 	padding: 10px 45px 45px 45px
 	h1
@@ -46,6 +45,7 @@ $grey: #f2f2f2
 		text-align: center	
 	p 
 		font-weight: 1em
+		padding: 0px 30px
 	i 
 		padding-bottom: 25px	
 /*servico*/
@@ -59,14 +59,17 @@ $grey: #f2f2f2
 		color: $white
 		h2
 			font-size: 2.8em
-			padding-bottom: 20px
+			padding-bottom: 20px			
 .info
 	padding: 30px
-	background-color: rgba(0, 0, 0, 0.4)
+	background-color: rgba(0, 0, 0, 0.5)
+	border-radius: 15px
 	h3
 		font-size: 1.3em
 		padding: 15px
 	p 
+		text-align: justify
+		text-indent: 15px
 		font-size: 1.1em
 		padding 0px 10px	
 	i 
@@ -139,4 +142,6 @@ footer
 	.servicos .container,
 	.contato
 		padding: 90px 15px	
-
+	.infoControl
+		display: flex
+		justify-content: space-around
