@@ -8221,6 +8221,9 @@ section {
   .info:hover {
     background-color: rgba(0, 0, 50, 0.8);
     border: 2px #0066cc solid; }
+  .info:focus {
+    background-color: rgba(0, 0, 50, 0.8);
+    border: 2px #0066cc solid; }
   .info h3 {
     font-size: 1.6em;
     padding: 15px; }
