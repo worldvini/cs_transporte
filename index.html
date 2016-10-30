@@ -8,9 +8,6 @@
   <meta name="author" content="Vinicius da Silva Fleury - worldvini@hotmail.com" >
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script src="js/jquery-3.1.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/myjs.js"></script>
 </head>
 <body>
   <header id="home">
@@ -38,7 +35,6 @@
                 <li><a href="#home">Home</a></li>  
                 <li><a href="#empresa">Empresa</a></li>  
                 <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#frota">Frota</a></li>
                 <li><a href="#contato">Contato</a></li>  
              </ul>
            </div><!-- /.navbar-collapse -->
@@ -139,69 +135,65 @@
     </div>    
   </section>
   <section>
-    <div id="frota" class="frota">     
-    </div>
-  </section>
-  <section>
-    <div id="contato" class="container contato">
-      <script>
-            function envia()
-            {
-            { document.formEnvia.submit();  }
-            }
-      </script>
-      <form name="formEnvia" method="POST" action="email/envio.php" class="form-horizontal" target="_blank">
-        <h2>Entre em contato</h2>
-        <div class="form-group">
-            <label for="nome1" class="col-xs-3 col-sm-3 control-label">Nome</label>
-            <div class="col-xs-7 col-sm-7">
-              <input 
-                type="text" 
-                name="nome" 
-                class="form-control" 
-                id="nome1" 
-                placeholder="José Maria"
-              >
-            </div>
-        </div>
-        <div class="form-group">
-            <label for="tel1" class="col-xs-3 col-sm-3 control-label">Telefone</label>
-            <div class="col-xs-7 col-sm-7">
-              <input 
-                type="text" 
-                name="telefone" 
-                class="form-control" 
-                id="tel1" 
-                placeholder="00 9999 8888"
-              >
-            </div>
-        </div>
-        <div class="form-group">
-            <label for="email1" class="col-xs-3 col-sm-3 control-label">Email</label>
-            <div class="col-xs-7 col-sm-7">
-              <input 
-                type="text" 
-                name="email" 
-                class="form-control" 
-                id="email1" 
-                placeholder="seuemail@seuemail.com"
-              >
-            </div>
-        </div>
-        <div class="form-group">
-            <label for="text1" class="col-xs-3 col-sm-3 control-label">Mensagem</label>
-            <div class="col-xs-7 col-sm-7">
-              <textarea 
-                name="texto" 
-                class="form-control" 
-                rows="4" 
-                id="text1" 
-                placeholder="Deixe sua mensagem aqui... Entraremos em contato."
-              ></textarea>
-            </div>
-        </div>
-            <button type="submit" name="enviarFormulario" class="btn btn-default" onclick="envia()">Enviar</button>         
-      </form>         
+    <div id="contato" class="container contato">        
+        <script>
+          function envia()
+          {
+          { document.formEnvia.submit();  }
+          }
+        </script>
+        <form name="formEnvia" method="POST" action="email/envio.php" class="form-horizontal" target="_blank">
+          <h2>Entre em contato</h2>
+          <div class="form-group">
+              <label for="nome1" class="col-xs-4 col-sm-3 control-label">Nome</label>
+              <div class="col-xs-8 col-sm-7">
+                <input 
+                  type="text" 
+                  name="nome" 
+                  class="form-control" 
+                  id="nome1" 
+                  placeholder="José Maria"
+                >
+              </div>
+          </div>
+          <div class="form-group">
+              <label for="tel1" class="col-xs-4 col-sm-3 control-label">Telefone</label>
+              <div class="col-xs-8 col-sm-7">
+                <input 
+                  type="text" 
+                  name="telefone" 
+                  class="form-control" 
+                  id="tel1" 
+                  placeholder="00 9999 8888"
+                >
+              </div>
+          </div>
+          <div class="form-group">
+              <label for="email1" class="col-xs-4 col-sm-3 control-label">Email</label>
+              <div class="col-xs-8 col-sm-7">
+                <input 
+                  type="text" 
+                  name="email" 
+                  class="form-control" 
+                  id="email1" 
+                  placeholder="seuemail@seuemail.com"
+                >
+              </div>
+          </div>
+          <div class="form-group">
+              <label for="text1" class="col-xs-4 col-sm-3 control-label">Mensagem</label>
+              <div class="col-xs-8 col-sm-7">
+                <textarea 
+                  name="texto" 
+                  class="form-control" 
+                  rows="4" 
+                  id="text1" 
+                  placeholder="Deixe sua mensagem aqui... Entraremos em contato."
+                ></textarea>
+              </div>
+          </div>
+              <button type="submit" name="enviarFormulario" class="btn btn-default" onclick="envia()">Enviar</button>         
+        </form>              
     </div>
   </section><!--end section contact-->
   <footer>
@@ -209,5 +201,10 @@
       <p>2016 - Todos os Direitos Reservados <br> Desenvolvido por <a href="worldvini@hotmail.com">WorldVini Desenvolvimento Web</a></p>
     </div>    
   </footer>
+  <!-- JavaScript -->  
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/myjs.js"></script>
+  <!-- fim JavaScript -->
 </body>
 </html>

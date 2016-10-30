@@ -31,7 +31,7 @@ $grey: #f2f2f2
 	p
 		font-size: 1.5em 
 	h3 
-		font-size: 2em
+		font-size: 2em	
 /*main*/
 .contPrincipal
 	background-color: $grey
@@ -47,7 +47,7 @@ $grey: #f2f2f2
 	p 
 		font-weight: 1em
 	i 
-		padding: 25px 15px	
+		padding-bottom: 25px	
 /*servico*/
 .servicos
 	background-color: $black
@@ -55,7 +55,7 @@ $grey: #f2f2f2
 		text-align: center
 		background: url("../img/saopaulo_servicos.jpg") center center no-repeat fixed
 		background-size: cover 
-		padding: 50px 30px 70px 30px		
+		padding: 10px 30px 70px 30px		
 		color: $white
 		h2
 			font-size: 2.8em
@@ -74,7 +74,6 @@ $grey: #f2f2f2
 /*contato*/			
 .contato
 	text-align: center
-	padding: 35px 5px
 /*rodape*/
 footer
 	background-color: $black
@@ -108,7 +107,7 @@ footer
 			border-top: 5px $blue solid
 		li 
 			a
-				font-size: 1.2em
+				font-size: 1.2em		
 
 @media screen and (max-width: 980px)
 	.navbar
@@ -123,7 +122,11 @@ footer
 		p
 			font-size: 1.1em 
 		h3 
-			font-size: 1.5em			
+			font-size: 1.5em
+	.empresa,		
+	.servicos .container,
+	.contato
+		padding: 40px 15px					
 /*Computer*/
 @media screen and (min-width: 981px)	
 	.nav	
@@ -132,4 +135,8 @@ footer
 				padding: 40px 20px		
 	.slide
 		margin-top: 100px
+	.empresa,		
+	.servicos .container,
+	.contato
+		padding: 90px 15px	
 

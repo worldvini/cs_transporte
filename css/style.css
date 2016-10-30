@@ -8187,7 +8187,7 @@ button.close {
   .empresa p {
     font-weight: 1em; }
   .empresa i {
-    padding: 25px 15px; }
+    padding-bottom: 25px; }
 
 /*servico*/
 .servicos {
@@ -8196,7 +8196,7 @@ button.close {
     text-align: center;
     background: url("../img/saopaulo_servicos.jpg") center center no-repeat fixed;
     background-size: cover;
-    padding: 50px 30px 70px 30px;
+    padding: 10px 30px 70px 30px;
     color: #fff; }
     .servicos .container h2 {
       font-size: 2.8em;
@@ -8215,8 +8215,7 @@ button.close {
 
 /*contato*/
 .contato {
-  text-align: center;
-  padding: 35px 5px; }
+  text-align: center; }
 
 /*rodape*/
 footer {
@@ -8261,11 +8260,19 @@ footer {
   .carousel-caption p {
     font-size: 1.1em; }
   .carousel-caption h3 {
-    font-size: 1.5em; } }
+    font-size: 1.5em; }
+  .empresa,
+  .servicos .container,
+  .contato {
+    padding: 40px 15px; } }
 
 /*Computer*/
 @media screen and (min-width: 981px) {
   .nav li a {
     padding: 40px 20px; }
   .slide {
-    margin-top: 100px; } }
+    margin-top: 100px; }
+  .empresa,
+  .servicos .container,
+  .contato {
+    padding: 90px 15px; } }
